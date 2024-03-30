@@ -1,0 +1,370 @@
+*{
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   
+} 
+ 
+
+.main{
+    width: 100%;
+    background: url(banerw.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+}
+ .navbar{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 60px;
+    padding: 5px 0;
+    background: #c8e1eae1;
+    justify-content: flex-end;
+} 
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+     background-color: #08aff0;
+     color: white;
+     padding:10px;
+     border-radius: 10px;
+    }
+
+.baner{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.baner img{
+    height: 500px;
+}
+
+.info h1{
+    font-family: 'Rubik', sans-serif;   
+    font-size: 30px;
+    padding: 10px 0px;
+    color: rgb(36,32,30);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.icon{
+    position: relative;
+    font-size: 30px;
+}
+.icon a {
+    top: 7px;
+    margin-left: 20px;
+    position: relative;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn a{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #08aff0;
+    color: white;
+    padding: 10px;
+}
+.btn .Hire{
+    background-color: azure;
+    color: #08aff0;
+}
+.Hire:hover{
+     background-color: #08aff0;
+    color: white;
+
+}
+.resume:hover{
+   background-color: #63c4ea;
+   color: aliceblue;
+}
+
+
+
+.txt-abt {
+    text-align: center;
+    color: #08aff0;
+    padding: 50px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.about div{
+    width: 550px;
+}
+
+.about img {
+    height: 400px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.ups {
+    position: fixed;
+    display: flex;
+    height: 50px;
+    right: 20px;
+    width: 50px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.skill{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+  
+}
+.skilltitle{
+    color: #1b9b8f;
+    text-align: center;
+    padding: 50px;
+}
+.skill div{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    margin:40px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.skill img{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+.skill div:hover{
+    scale: 1.1;
+    box-shadow:0px 1px 15px 3px #63c4ea;
+    cursor: pointer;
+}
+.start{
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.start div {
+    height: 250px;
+    width: 250px;
+    margin: 23px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.start div:hover{
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 0px 1px 15px 3px #63c4ea;
+}
+.start img{
+    padding:10px;
+    height: 150px;
+    width: 200px;
+}
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.education div{
+   text-align: center; 
+   transition: 1s;
+   padding:5px;
+ }
+ .education div:hover{
+    scale: 1.1;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 1px 15px 3px #63c4ea;
+}
+.education img{
+   height: 300px;
+   width: 300px;
+}
+
+.olglogo{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.project div{
+    text-align: center;
+    padding: 60px;
+}
+.project p{
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.achive{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.accord img{
+    height: 200px;
+    width: 200px;
+}
+.cetrificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intern{
+    margin-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: rgb(32, 30, 30);
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    color: azure;
+}
+.footer .con{
+     display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+.social{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socialdiv{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.footer h3{
+    text-decoration: underline;
+}
+.footer a{
+    color: azure;
+    text-decoration: none;
+}
+.footer img{
+    height: 30px;
+    width: 30px;  
+    opacity: 1;
+    transition: 1s;
+}
+.footer img:hover{
+  scale: 1.1;
+}
+
+.checkbtn{
+    color:#08aff0;
+     font-size: 30px;
+     display: none;
+     position: absolute;
+     top:10px;
+     right: 20px;
+}
+#check{
+    display: none;
+    position: absolute;
+    top:10px;
+    right: 20px;
+
+} 
+
+ @media only screen and (max-width: 700px) {
+    .navbar ul {
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        padding: 0;
+        background-color: #b5d5e1;
+        transition: left 0.3s ease;
+    }
+
+    .navbar ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .checkbtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    #check {
+        display: none;
+    }
+    .edu{
+        margin-top: 50px;
+    }
+}
+
+
+
+/*
+.content{
+    display:flex;
+}
+.content img{
+    border-radius:15px;
+    height: 300px;
+    width: 450px;
+    margin: 35px 25px;
+    box-shadow: -1px 2px 6px 0px #796363;
+}
+.content p{
+    padding: 30px;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+.content p:hover{
+    color: red;
+
+}
+  */ 
